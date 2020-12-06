@@ -1,11 +1,11 @@
 /*
 * Copyright (c) 2020
 *
-* This program determines the average mark of 
-* students in class.
+* This program determines the name of a planet 
+* using its position number in the solar system.
 *
 * @author  Wajd Mariam
-* @version 1.0
+* @version 2.0
 * @since   2020/12/03
 */
 
@@ -15,8 +15,7 @@ import java.util.Scanner;
 
 public class Planets {
   /**
-   * This function calculates the average of numbers 
-   * in the given array.
+   * This is the enum of planets.
    */
   enum PlanetsEnum {
     // List of all planets:
@@ -44,7 +43,7 @@ public class Planets {
       
       // Input
       Scanner input1 = new Scanner(System.in);
-      System.out.print("Enter the name or position of a planet: ");
+      System.out.print("Enter name of a planet: ");
       String userInput = input1.nextLine();
 
       
